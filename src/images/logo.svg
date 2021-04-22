@@ -1,0 +1,26 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="760 337 151 48">
+    <g data-item-type="text" data-item="Business" id="logo__item--business" class="logo__item">
+        <g class="logo__item__inner" transform="translate(811.7083320617676 372.7964343932222) scale(1 1) rotate(0 0 0)">
+            <text data-part-id="logo__item--business" dy="0" dominant-baseline="auto" alignment-baseline="auto" font-family="Montserrat" font-size="32px" fill="#3F51B5" letter-spacing="0" font-weight="bold" font-style="normal" data-font-family="Montserrat" data-font-weight="bold" data-font-style="normal" data-ttf-url="/builder_assets/fontsttf/font-montserrat-bold-normal.ttf" data-font-filename="montserrat-bold-normal">BAMS</text>
+        </g>
+    </g>
+    <g data-item-type="image" data-item="Image" data-logo-item="" id="logo__item--logo_0" class="logo__item">
+        <g class="logo__item__inner" transform="translate(757.9478221780506 335) scale(0.5403476758362038 0.5403476758362038) rotate(0 0 0)">
+
+            <g>
+                <g>
+                    <rect x="37.906" y="37.508" fill="#3F51B5" width="22.36" height="22.361" data-part-id="logo__item--logo_0__0"></rect>
+                    <rect x="10.44" y="38.021" fill="#03A9F4" width="20.433" height="20.438" data-part-id="logo__item--logo_0__1"></rect>
+                    <rect x="14.083" y="12.312" fill="#03A9F4" width="16.317" height="16.313" data-part-id="logo__item--logo_0__2"></rect>
+                    <rect x="14.173" y="69.047" fill="#03A9F4" width="16.214" height="16.211" data-part-id="logo__item--logo_0__3"></rect>
+                    <rect x="66.735" y="37.77" fill="#03A9F4" width="20.945" height="20.945" data-part-id="logo__item--logo_0__4"></rect>
+                    <rect x="68.657" y="67.453" fill="#03A9F4" width="17.104" height="17.109" data-part-id="logo__item--logo_0__5"></rect>
+                    <rect x="69.049" y="12.312" fill="#03A9F4" width="16.326" height="16.322" data-part-id="logo__item--logo_0__6"></rect>
+                    <rect x="39.578" y="10.061" fill="#03A9F4" width="19.926" height="19.932" data-part-id="logo__item--logo_0__7"></rect>
+                    <rect x="39.456" y="67.293" fill="#03A9F4" width="20.17" height="20.178" data-part-id="logo__item--logo_0__8"></rect>
+                </g>
+            </g>
+
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,252 @@
+@import "../fonts/iransans.css";
+@import "backgrounds.css";
+
+/********** General **********/
+body {
+    font-family: "IranSans";
+    cursor: default;
+    background-color: #f5f6fa;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #90a4ae transparent;
+}
+*::-webkit-scrollbar {
+    width: 7px;
+}
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #90a4ae;
+    border-radius: 0;
+    border: 0px solid transparent;
+}
+
+img {
+    pointer-events: none;
+}
+main {
+    margin-top: 85px;
+}
+nav a {
+    cursor: pointer;
+}
+.card li,
+.card span:not(.badge) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#main-loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999;
+}
+/********************/
+
+/********** Login Page **********/
+#login-page > .row {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#login-invalid {
+    display: none;
+}
+/********************/
+
+/********** Server **********/
+.server {
+    margin: 30px auto;
+}
+.server.card {
+    box-shadow: 0 1px 15px 0 hsla(0, 0%, 48%, 0.05);
+    border: none;
+}
+.server .card-header {
+    border-bottom: none;
+    background: none;
+    padding: 1rem 1rem 0;
+    display: flex;
+    align-items: center;
+}
+.server .card-header .header-icon {
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+}
+.server .card-header .header-title {
+    flex-grow: 1;
+}
+.server .card-header .badge {
+    font-size: 0.6em;
+}
+
+.info-item {
+    background-color: #f5f6fa;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.info-item .info-icon {
+    height: 100%;
+    display: inline-block;
+    color: #fff;
+    width: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+.info-item .info-title {
+    padding: 0 0.5rem;
+    font-size: 0.8rem;
+    flex-grow: 1;
+}
+.info-item .badge {
+    background-color: #0d47a1;
+}
+
+.resource-label {
+    font-size: 0.9rem;
+}
+/********************/
+
+/********** Meeting **********/
+.meeting {
+    font-size: 0.8rem;
+}
+.meeting .badge {
+    font-size: 100%;
+    font-family: arial;
+}
+.meeting li,
+.meeting a {
+    padding: 0.5rem 0.5rem;
+}
+.meeting .join {
+    text-align: center;
+}
+.meeting .bbb-context,
+.meeting .name {
+    font-weight: bold;
+}
+
+.meeting-col {
+    padding: 7.5px;
+}
+.meeting-col .list-group-item.active {
+    background-color: #009688;
+    border-color: #009688;
+}
+.meeting-col .badge {
+    background-color: #009688 !important;
+}
+.meeting-col .list-group-item-action {
+    background-color: #b2dfdb;
+    color: #00695c;
+}
+.meeting-col .list-group-item-action:hover,
+.meeting-col .list-group-item-action:focus {
+    background-color: #80cbc4;
+    color: #004d40;
+}
+/********************/
+
+/********** Attendees **********/
+.attendees {
+    font-size: 0.8rem;
+}
+.attendees .badge {
+    font-size: 85%;
+}
+
+.attendees {
+    height: 332px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.attendees li {
+    padding: 0.2rem 0.5rem;
+    border: 0;
+}
+.attendees li:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+/********************/
+
+/********** Night Mode **********/
+body.night {
+    background-color: #263238;
+    color: #fff;
+}
+.night .info-item,
+.night .meeting-col .card,
+.night .progress,
+.night .server.card .list-group-item:not(.active, .list-group-item-action),
+.night #main-loader {
+    background-color: #263238;
+}
+.night .server.card,
+.night #login-page .card,
+.night .attendees li:hover,
+.night .dropdown-item:focus,
+.night .dropdown-item:not(.active):hover {
+    background-color: #37474f !important;
+}
+.night #navbar,
+.night .dropdown-menu {
+    background-color: #455a64 !important;
+    color: #fff;
+}
+.night #navbar a {
+    color: #fff;
+}
+.night .form-control,
+.night .form-select {
+    color: #fff;
+    background-color: #263238;
+    border-color: #263238;
+}
+.night .input-group-text {
+    color: #fff;
+    background-color: #37474f;
+    border-color: #37474f;
+}
+/********************/
+
+/********** Media **********/
+@media screen and (min-width: 576px) {
+    [dir="rtl"] .attendees-col {
+        padding-right: 2px;
+    }
+    [dir="rtl"] .meeting-details-col.cuspad {
+        padding-left: 2px;
+    }
+    [dir="ltr"] .attendees-col {
+        padding-left: 2px;
+    }
+    [dir="ltr"] .meeting-details-col.cuspad {
+        padding-right: 2px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-title {
+        font-size: 1rem;
+    }
+}
+/********************/

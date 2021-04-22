@@ -1,0 +1,75 @@
+.ger-bg1 {
+    background: #00f2c3;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-image: none;
+    background-size: auto;
+    background-image: linear-gradient(
+        to bottom left,
+        #00f2c3,
+        #0098f0,
+        #00f2c3
+    );
+    background-size: 210% 210%;
+    background-position: 100% 0;
+}
+.ger-bg2 {
+    background: #fd5d93;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-image: none;
+    background-size: auto;
+    background-image: linear-gradient(
+        to bottom left,
+        #fd5d93,
+        #ec250d,
+        #fd5d93
+    );
+    background-size: 210% 210%;
+    background-position: 100% 0;
+}
+.ger-bg3 {
+    background: #e14eca;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-image: none;
+    background-size: auto;
+    background-image: linear-gradient(
+        to bottom left,
+        #e14eca,
+        #ba54f5,
+        #e14eca
+    );
+    background-size: 210% 210%;
+    background-position: 100% 0;
+}
+.ger-bg4 {
+    background: #ff8d72;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-image: none;
+    background-size: auto;
+    background-image: linear-gradient(
+        to bottom left,
+        #ff8d72,
+        #ff6491,
+        #ff8d72
+    );
+    background-size: 210% 210%;
+    background-position: 100% 0;
+}
+.ger-bg5 {
+    background: #3f51b5;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-image: none;
+    background-size: auto;
+    background-image: linear-gradient(
+        to bottom left,
+        #3f51b5,
+        #673ab7,
+        #3f51b5
+    );
+    background-size: 210% 210%;
+    background-position: 100% 0;
+}
