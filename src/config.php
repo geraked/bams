@@ -1,12 +1,8 @@
 <?php
+require_once('meta.php');
 
 // To show debug errors change the number to 1
 ini_set('display_errors', 0);
-
-// Don't change these
-define('VERSION', '1.0.0');
-define('ADOBE_CONNECT', 'A');
-define('BIGBLUEBUTTON', 'B');
 
 // Type the web site URL. Putting a trailing slash at the end is necessary
 define('URL', 'http://localhost/bams/');
