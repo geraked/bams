@@ -16,6 +16,9 @@ foreach (SERVERS as $s) {
     if ($acl && !in_array($s['id'], $acl))
         continue;
 
+    if (!isSiteAvailible('http://' . $s['domain']))
+        continue;
+
     $server = $dom->createElement('server');
     $id = $dom->createElement('id', $s['id']);
     $type = $dom->createElement('type', $s['type']);
