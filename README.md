@@ -102,6 +102,15 @@ According to the installed version of AdobeConnect and the path, it may be a lit
 
 **Rabist** - view on [LinkedIn](https://www.linkedin.com/in/rabist)
 
+## Details
+
+-   **BS Final Project**
+-   **Supervisor:** [Dr. Seyed Mojtaba Matinkhah](https://yazd.ac.ir/en/people/matinkhah)
+-   **Univ:** Yazd University
+-   **Semester:** Summer 1400
+
+The report documents is available in [`docs`](https://github.com/geraked/bams/tree/docs) branch. View the [PDF](https://github.com/geraked/bams/blob/docs/report/report.pdf).
+
 ## License
 
 Licensed under [MIT](LICENSE).
